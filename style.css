@@ -4,7 +4,8 @@ body{
     margin-right: 0.25rem;
 }
 
-.container{
+.fcont{
+    margin: 1rem;
     border: 2px solid black;
     border-radius: 0.75rem;
     background-color: #90e0ef;
@@ -40,6 +41,17 @@ a:hover{
 }
 
 @media(max-width: 768px){
+
+
+    .fcont{
+        margin: 10px;
+    }
+
+    .row{
+        display: inline;
+        margin: auto;
+    }
+
     .isRight{
         border-left: none;
     }
